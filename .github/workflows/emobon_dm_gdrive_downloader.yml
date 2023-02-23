@@ -16,6 +16,6 @@ jobs:
         env:
           PROFILE: https://raw.githubusercontent.com/emo-bon/emo-bon-profile-0.1/main
       - name: clean
-        run: rm -rf ~sembench_data_cache ~sembench_arguments.json
+        run: sudo rm -rf ~sembench_data_cache ~sembench_arguments.json
       - name: commit
         uses: stefanzweifel/git-auto-commit-action@v4
