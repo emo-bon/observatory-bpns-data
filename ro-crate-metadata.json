@@ -1,0 +1,29 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "conformsTo": {
+                "@id": "https://raw.githubusercontent.com/emo-bon/emo-bon-profile-0.1/main"
+            },
+            "datePublished": "2023-02-23T13:24:27+00:00"
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "https://raw.githubusercontent.com/emo-bon/emo-bon-profile-0.1/main",
+            "@type": "CreativeWork",
+            "name": "<name>",
+            "version": "<version>"
+        }
+    ]
+}
