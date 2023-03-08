@@ -5,7 +5,7 @@ on:
 jobs:
   job0:
     runs-on: ubuntu-latest
-    name: emobon dm gdrive downloader job
+    name: emobon rocrate workflow
     steps:
       - name: checkout
         uses: actions/checkout@v3
