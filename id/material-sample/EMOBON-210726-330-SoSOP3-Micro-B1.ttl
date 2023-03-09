@@ -1,0 +1,4 @@
+<todo_base_uri/id/material-sample/EMOBON-210726-330-SoSOP3-Micro-B1>
+    a todo:MaterialSample;
+    todo:predicate_for_sea_surf_temp_method 'no CTD taken'^^xsd:string;
+.

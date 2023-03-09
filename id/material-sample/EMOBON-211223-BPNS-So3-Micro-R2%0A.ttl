@@ -1,0 +1,4 @@
+<todo_base_uri/id/material-sample/EMOBON-211223-BPNS-So3-Micro-R2%0A>
+    a todo:MaterialSample;
+    todo:predicate_for_sea_surf_temp_method 'CTD broke and sea surface temperature could not be measured'^^xsd:string;
+.
