@@ -15,5 +15,7 @@ jobs:
         uses: vliz-be-opsci/rocrate-to-sembench@main
         env:
           PROFILE: https://raw.githubusercontent.com/emo-bon/emo-bon-profile-0.1/main
+      - name: semantify
+        uses: vliz-be-opsci/semantify@main
       - name: commit
         uses: stefanzweifel/git-auto-commit-action@v4
